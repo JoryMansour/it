@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lenght-css.css">
+  <script src="mass.js"></script>
+  <script src="https://kit.fontawesome.com/fbfcff68ea.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
+
+  <title> SI</title>
+  <style>
+  </style>
+</head>
+
+<body >      
+      <div> 
+  <div class="bg">
+  </div>
+  <nav class="" id="nav">
+    <div class="logo">
+      <a href="">
+        <img src="logo.png" alt="">
+      </a>
+    </div>
+
+    <ul class="menu" dir="rtl" id="menu">
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">الرئيسية</span>
+        </li>
+
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">من نحن</span>
+          </a>
+        </li>
+        
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">النظام الدولي للوحدات</span>
+        </li>
+  
+
+        <li class="middle">
+          <a href="" class='txt'>
+            <span class="txt">التحويلات</span>
+          </a>
+          
+        </li>
+
+      </ul>
+  
+  </nav>
+
+<div class="container-">
+ <div class="container">
+
+      
+    <h1 >تحويل الكتلة </h1> 
+    <p id="about">  
+
+الكيلو غرام أو الكيلو جرام هو أحد الوحدات الأساسية
+في النظام الدولي للوحدات,  ويُشار إلى الكيلو غرام باختصارات متعددة  .النموذج المعياري الذي يُستخدم لمعايرة الكيلوغرام
+أو الكيلوجرام هو كتلة أسطوانة مُصمتة قطرها 39 مللي متر وارتفاعها 39 مللي متر وتتكون من 90% من
+البلاتين 10% من الإريديوم, ومحفوظة عند درجة صفر سيلزيوس مئوي موجودة في باريس وفي معهد المعايرة بمدينة بولدر في ولاية كولورادو بالولايات المتحدة الأمريكية.
+لمعرفة المزيد  يمكن الاطلاع على أداة التحويل بين وحدات قياس الكتلة  ادناه 
+    </p>
+  
+
+    <br>
+    <input type="number" id="inputValue" 
+        placeholder="   ادخل القيمة هنا"    
+        oninput="convert()"> 
+
+    <select id="fromUnit" onchange="convert()"> 
+        <option value="g">قرام (g)</option> 
+        <option value="kg">كيلوقرام (kg)</option> 
+        <option value="tonna">طن (t)</option> 
+        <option value="lb">باوتد (lb)</option>  
+        <option value="oz">اونصه  (oz)</option> 
+    </select> 
+    <select id="toUnit" onchange="convert()"> 
+        <option value="g">قرام (g)</option> 
+        <option value="kg">كيلوقرام (kg)</option> 
+        <option value="tonna">طن (t)</option> 
+        <option value="lb">باوتد (lb)</option>  
+        <option value="oz">اونصه  (oz)</option> 
+    </select> 
+    <p id="result"></p> 
+ </div></div>
+  </body>
+  </html>
+

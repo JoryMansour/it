@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lenght-css.css">
+  <script src="lenght-java.js"></script>
+  <script src="https://kit.fontawesome.com/fbfcff68ea.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
+
+  <title> SI</title>
+  <style>
+  </style>
+</head>
+
+<body >      
+      <div> 
+  <div class="bg">
+  </div>
+  <nav class="" id="nav">
+    <div class="logo">
+      <a href="">
+        <img src="logo.png" alt="">
+      </a>
+    </div>
+
+    <ul class="menu" dir="rtl" id="menu">
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">الرئيسية</span>
+        </li>
+
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">من نحن</span>
+          </a>
+        </li>
+        
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">النظام الدولي للوحدات</span>
+        </li>
+  
+
+        <li class="middle">
+          <a href="" class='txt'>
+            <span class="txt">التحويلات</span>
+          </a>
+          
+        </li>
+
+      </ul>
+  
+  </nav>
+
+<div class="container-">
+ <div class="container">
+
+      
+    <h1 >تحويل الطول</h1> 
+  
+    <p id="about">  
+      
+
+وحدة قياس الطول أو المسافة في النظام الدولي هي المتر ومضاعفاته أو أجزائه.
+والمتر  هو وحدة دولية لقياس المسافة, ويعرف على أنه المسافة التي يقطعها الضوء في الفراغ التام في 1/299,792,458 جزء من الثانية, وجاء اللفظ من الكلمة الإنجليزية ويعتبر المتر وحدة قياس الطول الأكثر استعمالا في العالم.
+
+
+لمعرفة المزيد حول مضاعفات وأجزاء المتر يمكن الاطلاع على أداة التحويل بين وحدات قياس الطول ادناه 
+    </p>
+   
+    <br>
+    <input type="number" id="inputValue" 
+        placeholder="Enter value" 
+        oninput="convert()"> 
+
+    <select  id="fromUnit" onchange="convert()"> 
+        <option value="cm">Centimeter (cm)</option> 
+        <option value="inch">Inch (in)</option> 
+        <option value="feet">Feet (ft)</option> 
+        <option value="meter">Meter (m)</option> 
+        <option value="yard">Yard (yd)</option> 
+        <option value="mile">Mile (mi)</option> 
+        <option value="kilometer">Kilometer (km)</option> 
+    </select> 
+    <select id="toUnit" onchange="convert()"> 
+        <option value="cm">Centimeter (cm)</option> 
+        <option value="inch">Inch (in)</option> 
+        <option value="feet">Feet (ft)</option> 
+        <option value="meter">Meter (m)</option> 
+        <option value="yard">Yard (yd)</option> 
+        <option value="mile">Mile (mi)</option> 
+        <option value="kilometer">Kilometer (km)</option> 
+    </select> 
+    <p id="result"></p> 
+ </div></div>
+  </body>
+  </html>
+

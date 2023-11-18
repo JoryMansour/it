@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lenght-css.css">
+  <script src="amount.js"></script>
+  <script src="https://kit.fontawesome.com/fbfcff68ea.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
+
+  <title> SI</title>
+  <style>
+  </style>
+</head>
+
+<body >      
+      <div> 
+  <div class="bg">
+  </div>
+  <nav class="" id="nav">
+    <div class="logo">
+      <a href="">
+        <img src="logo.png" alt="">
+      </a>
+    </div>
+
+    <ul class="menu" dir="rtl" id="menu">
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">الرئيسية</span>
+        </li>
+
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">من نحن</span>
+          </a>
+        </li>
+        
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">النظام الدولي للوحدات</span>
+        </li>
+  
+
+        <li class="middle">
+          <a href="" class='txt'>
+            <span class="txt">التحويلات</span>
+          </a>
+          
+        </li>
+
+      </ul>
+  
+  </nav>
+
+<div class="container-">
+ <div class="container">
+
+      
+    <h1 >تحويل كمية المادة  </h1> 
+    <p id="about">
+
+        المول هو وجدة قياس كمية المادة في الكيمياء. وهي من وحدات القياس الأساسية وهي واحدة من وحدات القياس القليلة المستخدمة لقياس كمية فيزيائية. وقد أتى
+        المصطلح “مول” من اللغة الألمانية , حيث كان فيلهلم أوستفالد أول من أطلق هذا
+        الاسم في عام 1893, مع أن وحدة “الوزن المكافئ ” كانت تُستخدم منذ قرن من الزمان.
+        
+        لمعرفة المزيد حول مضاعفات وأجزاء المول يمكن الاطلاع على أداة التحويل بين وحدات قياس المادة ادناه 
+ 
+    </p>
+  
+
+    <br>
+    <input type="number" id="inputValue" 
+        placeholder="ادخل القيمة هنا"
+        oninput="convert()"> 
+
+    <select id="fromUnit" onchange="convert()"> 
+        <option value="mole">  مول (mole)</option> 
+        <option value="kilomole"> كيلومول(kilomole)</option> 
+        <option value="nanomole"> نانومول(nanomole)</option> 
+        <option value="millimole"> ملي مول(millimole)</option>  
+        <option value="picomole">بيكومول (picomole)</option> 
+        <option value="micromole">مايكرومول (micromole)</option> 
+    </select> 
+    <select id="toUnit" onchange="convert()"> 
+        <option value="mole">  مول (mole)</option> 
+        <option value="kilomole"> كيلومول(kilomole)</option> 
+        <option value="nanomole"> نانومول(nanomole)</option> 
+        <option value="millimole"> ملي مول(millimole)</option>  
+        <option value="picomole">بيكومول (picomole)</option> 
+        <option value="micromole">مايكرومول (micromole)</option> 
+    </select> 
+    <p id="result"></p> 
+ </div></div>
+  </body>
+  </html>
+

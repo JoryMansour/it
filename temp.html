@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lenght-css.css">
+  <script src="temp.js"></script>
+  <script src="https://kit.fontawesome.com/fbfcff68ea.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
+
+  <title> SI</title>
+  <style>
+  </style>
+</head>
+
+<body >      
+      <div> 
+  <div class="bg">
+  </div>
+  <nav class="" id="nav">
+    <div class="logo">
+      <a href="">
+        <img src="logo.png" alt="">
+      </a>
+    </div>
+
+    <ul class="menu" dir="rtl" id="menu">
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">الرئيسية</span>
+        </li>
+
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">من نحن</span>
+          </a>
+        </li>
+        
+        <li class="right">
+          <a href=" " class='txt'>
+            <span class="txt">النظام الدولي للوحدات</span>
+        </li>
+  
+
+        <li class="middle">
+          <a href="" class='txt'>
+            <span class="txt">التحويلات</span>
+          </a>
+          
+        </li>
+
+      </ul>
+  
+  </nav>
+
+<div class="container-">
+ <div class="container">
+
+      
+    <h1 >تحويل ردجة الحرارة </h1> 
+    <p id="about">
+
+وحدة
+
+ قياس الحرارة هي الكلفن ,
+        وسميت وحدة قياس درجة الحرارة بهذا الاسم نسبة إلى العالم الفيزيائي اللورد كلفن
+       
+       ودرجة حرارة هي مؤشر على كمية الطاقة الحرارية التي
+       يختزنها الجسم, كما أنها مؤشر على مدى حركية ذراته 
+       التي تسببت بنشوء هذه الحرارة. وهناك
+       العديد من الوحدات المستخدمة لقياس درجة الحرارة
+       مثل الكلفن والسيلزيوس.
+       
+       ودرجة الحرارة هي مقياس مدى سخونة جسم ما أو
+       برودته,  
+   
+       
+       
+       لمعرفة المزيد   يمكن الاطلاع على أداة التحويل بين وحدات قياس الحرارة  ادناه 
+
+    </p>
+  
+
+    <br>
+    <input type="number" id="inputValue" 
+        placeholder="ادخل القيمة هنا"
+        oninput="convert()"> 
+
+    <select id="fromUnit" onchange="convert()"> 
+        <option value="kelvin">كلفن (k)</option> 
+        <option value="c"> سيليسيوس(c)</option> 
+        <option value="f">فهرنهايت (f)</option> 
+    </select> 
+    <select id="toUnit" onchange="convert()"> 
+        <option value="kelvin">كلفن (k)</option> 
+        <option value="c">سيليسيوس  (c)</option> 
+        <option value="f">فهرنهايت (f)</option> 
+    </select> 
+    <p id="result"></p> 
+ </div></div>
+  </body>
+  </html>
+
